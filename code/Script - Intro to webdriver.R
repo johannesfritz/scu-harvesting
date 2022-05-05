@@ -29,11 +29,13 @@ my.target= my.session$findElement(xpath='//*[@id="aboutDescription"]/p')
 ## Extracting text (works reasonably well)
 my.target$getText()
   
+
 ## extracting the full HTML file
 html = my.session$getSource()
 
 page=read_html(scrape.page)
 html=htmlParse(html, asText=T)
+writeLines(text = html, con = 'data/my first page.html')
 
 
 
