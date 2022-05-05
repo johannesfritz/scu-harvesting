@@ -4,8 +4,8 @@
 
 ### Resources
 * Please install the libraries 
-**  [webdriver](https://github.com/rstudio/webdriver) including phantomJS (see link)
-** [httr](https://cran.rstudio.com/web/packages/httr/index.html)
+  * [webdriver](https://github.com/rstudio/webdriver) including phantomJS (see link)
+  * [httr](https://cran.rstudio.com/web/packages/httr/index.html)
 
 ### Teaching example
 [U.S. Congressional Hearings](https://www.govinfo.gov/app/collection/chrg/)
