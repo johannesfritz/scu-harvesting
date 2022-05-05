@@ -14,6 +14,10 @@ install_phantomjs()
 ```R
 install.packages("httr")
 ```
+* [XML](https://cran.r-project.org/web/packages/XML/index.html)
+```R
+install.packages("XML")
+```
 
 ### Teaching example
 [U.S. Congressional Hearings](https://www.govinfo.gov/app/collection/chrg/)
