@@ -14,6 +14,7 @@ my.session$go(my.url)
 
 
 # Looking around the page
+my.session$
 
 ## verifying I arrived at the URL
 my.session$getUrl()
@@ -23,22 +24,18 @@ my.session$getTitle()
 ## Very useful to check you're navigating right
 my.session$takeScreenshot()
 
-## Navigating on the page
-my.target= my.session$findElement(xpath='//*[@id="aboutDescription"]/p')
+## Navigating on the page: 
+## Locating the first menu item '117th Congress (2021 - 2022)'
+my.target= my.session$findElement(xpath='/html/body/div[10]/div[6]/div/div[3]/div/div/div[1]/div[1]/div')
 
-## Extracting text (works reasonably well)
+## Extracting text of that item
 my.target$getText()
-  
 
-## extracting the full HTML file
-html = my.session$getSource()
+## Clicking on it to open the menu itself
+my.target$click()
 
-page=read_html(scrape.page)
-html=htmlParse(html, asText=T)
-writeLines(text = html, con = 'data/my first page.html')
+## checking whether the click worked (top menu should now be open)
+my.session$takeScreenshot()
 
-
-
-
-
-
+## closing the session
+my.session$delete()
