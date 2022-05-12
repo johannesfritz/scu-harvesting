@@ -33,7 +33,9 @@ all.committees=my.session$findElements(xpath=common.root) # should give you a li
 
 ## Now add the for loop printing the full list of House Committee names by looping through the elemtns
 
-for(){
+for(){ ## <-- add variable you are looping over and its dimension
+  
+  print(all.committees$getText()) ## <-- change to respond to the variable you are looping over
   
 }
 
