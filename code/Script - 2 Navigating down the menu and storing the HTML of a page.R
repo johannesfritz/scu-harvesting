@@ -13,15 +13,7 @@ my.session = Session$new(port= my.browser$port)
 my.session$go(my.url)
 
 
-## Navigating on the page: 
-## Locating the first menu item '117th Congress (2021 - 2022)'
-my.target= my.session$findElement(xpath='/html/body/div[10]/div[6]/div/div[3]/div/div/div[1]/div[1]/div')
-
-## Clicking on it to open the menu itself
-my.target$click()
-
-## checking whether the click worked (top menu should now be open)
-my.session$takeScreenshot()
+## Navigating on the page to the details page of a specific hearing and storing that page. 
 
 ## (1) Locating the first menu item '117th Congress (2021 - 2022)'
 my.target= my.session$findElement(xpath='/html/body/div[10]/div[6]/div/div[3]/div/div/div[1]/div[1]/div')
