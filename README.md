@@ -18,6 +18,10 @@ install.packages("httr")
 ```R
 install.packages("XML")
 ```
+* [XML](https://cran.r-project.org/web/packages/stringr/index.html)
+```R
+install.packages("stringr")
+```
 
 ### Teaching example
 [U.S. Congressional Hearings](https://www.govinfo.gov/app/collection/chrg/)
