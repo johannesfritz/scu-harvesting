@@ -14,8 +14,6 @@ my.session$go(my.url)
 
 
 # Looking around the page
-my.session$
-
 ## verifying I arrived at the URL
 my.session$getUrl()
 my.session$getTitle()
