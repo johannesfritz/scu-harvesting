@@ -1,4 +1,4 @@
-# please install httr
+# please install stringr
 # install.packages("stringr")
 
 library(stringr)
