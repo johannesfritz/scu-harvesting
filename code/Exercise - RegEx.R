@@ -10,3 +10,10 @@ practice.text="In the 2013-2014 National Basketball Association (NBA) season, th
 The escalation of NBA player salaries has not only been explosive, but it has also created a large earnings gap between players. Kobe Bryant’s 2013-2014 $30.4 million salary considerably dwarfed his Lakers teammate Ryan Kelly’s $490,000. There has been considerable attention paid to the escalation of NBA player salaries (24).  Sprow (25) seemed to think that there is a salary bubble in the NBA and that salaries will decrease or come “tumbling down” very soon. There may be evidence for this. From the 1984-1985 to 2006-2007, the average NBA player salary continued to increase. However, from 2007-2008 until 2012-2013, NBA salaries leveled off (3, 13).
 
 What’s more intriguing is the fact that some question whether NBA players are overpaid. Nathan (22) indicated that overpayment in the NBA is problematic. Statistically some players are overpaid based on poor or sub-par performance. These players are highly sought after because they are proficient in one aspect of their game such as three point shooting or they may be a defensive force. However, these same specialized players may be a major liability in other areas i.e., the three point shooter may be a poor defender and the defensive force may be a poor free throw shooter. Whatever the issue, overpayment in the NBA is a concern. The reason for payment is to fairly compensate a player for his play. However, in the NBA it seems as if compensation is a reward for past performance and anticipated or expected future performance. However, past performance and expected performance may not be good indicators of fair compensation. NBA owners and general managers often over spend for a player that they feel will meet and immediate need. This is very myopic."
+
+
+## Example questions:
+## Are you able to get all USD figures out of this text?
+## How mentions of the LA Lakers can you find?
+
+str_extract_all(practice.text, "YOUR PATTERN HERE")
